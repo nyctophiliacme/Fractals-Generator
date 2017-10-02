@@ -18,8 +18,8 @@ $(document).ready(function()
 {
 	var c = document.getElementById("mycanvas");
 	ctx = c.getContext("2d");
-	// ctx.fillStyle = '#39ff12';
-	ctx.fillStyle = "dark-green";
+	ctx.fillStyle = '#39ff12';
+	// ctx.fillStyle = "dark-green";
 	// myVar = setInterval(display, 0.00001);
 
 	myVar = setInterval(sierpinskiDispay, 0.001);
