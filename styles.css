@@ -1,0 +1,16 @@
+body
+{
+	margin: 0;
+	padding: 0;
+}
+#mycanvas
+{
+	display: inline;
+	border: 1px solid black;
+}
+#canvas-container
+{
+	width: 100%;
+	text-align: center; 
+	margin: auto;
+}
