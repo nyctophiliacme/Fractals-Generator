@@ -14,3 +14,9 @@ body
 	text-align: center; 
 	margin: auto;
 }
+#options
+{
+	margin: 2% auto 2% auto;
+	/*width: 10%;*/
+	text-align: center;
+}
