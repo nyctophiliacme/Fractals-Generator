@@ -2,21 +2,39 @@ body
 {
 	margin: 0;
 	padding: 0;
+	background-color: #ecf0f1;
 }
 #mycanvas
 {
 	display: inline;
-	border: 1px solid black;
+	border: 8px solid #ecf0f1;
+	outline: 5px solid #2c3e50;
+	padding: 0.5%;
+	background-color: #2c3e50;
 }
 #canvas-container
 {
 	width: 100%;
 	text-align: center; 
 	margin: auto;
+	margin-top: 2%;
+	/*height: 300px;*/
 }
 #options
 {
 	margin: 2% auto 2% auto;
 	/*width: 10%;*/
 	text-align: center;
+}
+select
+{
+	border: none;
+	/*border-bottom: 2px solid #2c3e50;*/
+	padding: 10px 10px;
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	border-radius: 5px;
+	font-family: sans-serif;
+	font-size: 15px;
+	appearance: none;
 }
